@@ -1,0 +1,53 @@
+$main-color: rgba(0, 255, 204, 0.374);
+$bg-img:no-repeat center/cover;
+
+body {
+  background: linear-gradient(to bottom, #6068d8cc, #474c68);
+  background-attachment: fixed; /* Fix the gradient to the viewport */
+  margin: 0;
+ 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.card {
+    background-color: $main-color;
+    max-width: 280px;
+    padding: 20px;
+    line-height: 24px;
+    margin: 4rem;
+    position: relative;
+}
+
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid white;
+   position:absolute;
+   right: -30px;
+   bottom:110px;
+    
+    
+}
+.img-one{
+    background: url(https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg) $bg-img;
+   
+}
+.img-two{
+    background: url(https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg) $bg-img;
+    
+}
+.img-three{
+    background: url(https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg) $bg-img;
+    
+}
+.img-four{
+    background: url(https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg) $bg-img;
+   
+}

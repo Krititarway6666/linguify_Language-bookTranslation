@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8086 Emulator clone page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="navigation">
+        <h2 class="first-heading">8086 Compiler</h2>
+        <section class="icons">
+          <abbr title="Explore command line version"
+            ><i class="fa-solid fa-terminal"></i
+          ></abbr>
+          <abbr title="Instructions page"
+            ><i class="fa-solid fa-circle-info"></i
+          ></abbr>
+          <abbr title="Switch to dark theme"
+            ><i class="fa-solid fa-sun"></i
+          ></abbr>
+        </section>
+      </div>
+      <div class="second-main">
+        <div class="second-section">
+          <section>
+            <img src="main img.jpeg" alt="laptop image" />
+          </section>
+          <section class="info">
+            <h2 class="sec-heading">Online 8086 EMULATOR</h2>
+            <p>
+              Platform and Device Independent!<br />
+              Now run 8086 based assembly programs right in browser.<br />
+              Open Source : <a href="#">Github Repository</a> <br />Also in
+              <a href="#">Command line version</a><br />
+              Made Using React, WASM and Rust.
+            </p>
+
+            <button class="btn-1">TRY ONLINE 8086 COMPILER</button>
+            <button class="btn-2">INSTRUCTION SET</button>
+          </section>
+        </div>
+        <div class="third-section">
+          <div class="card1 card">
+            <h2 class="card-heading">Multiple Themes</h2>
+            <p class="card-para">
+              We know that programmers love the dark theme. Toggle between
+              Bright and Dark Theme using the theme button in Navbar.
+            </p>
+          </div>
+          <div class="card2 card">
+            <h2 class="card-heading">Access To 1 MB Memory</h2>
+            <p class="card-para">
+              The Emulator supports complete 1 MB Memory, which can be accessed
+              from the memory table.
+            </p>
+          </div>
+          <div class="card3 card">
+            <h2 class="card-heading">Validated Jump and Call Using Labels</h2>
+            <p class="card-para">
+              As Jumps and calls only allows valid labels, it does not permit
+              any jumps to incorrect position.
+            </p>
+          </div>
+          <div class="card4 card">
+            <h2 class="card-heading" >Selected Interrupts</h2>
+            <p class="card-para">
+              Being an Emulator, this does not have 'true' memory (See Github
+              Repository) so it supports select few interrupts.
+            </p>
+          </div>
+          <div class="card5 card">
+            <h2 class="card-heading">Line by Line Execution</h2>
+            <p class="card-para">
+              Supports running all instructions automatically, or manual line by
+              line execution. You can also stop the automatic execution with a
+              simple button click.
+            </p>
+          </div>
+          <div class="card6 card">
+            <h2 class="card-heading">Check Registers and Flags in Real Time</h2>
+            <p class="card-para">
+              Updates Flags and registers along with the execution, so can check
+              the state of Emulator easily, all in a single view.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <ul>
+        <li class="first-list">@Reserved | Developed by</li>
+          <li>Kriti Tarway</li>
+          <li>Kriti Tarway</li>
+          <li>Kriti Tarway</li>
+          <li>Kriti Tarway</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="clone.js"></script>
+  </body>
+</html>

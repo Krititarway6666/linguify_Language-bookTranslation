@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="lab .css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Registration Form -->
+        <input type="radio" id="toggle-register" name="toggle" checked hidden>
+        <input type="radio" id="toggle-login" name="toggle" hidden>
+
+        <div class="form-container">
+            <div class="form-header">
+                <label for="toggle-register" class="toggle-link">Register</label>
+                <label for="toggle-login" class="toggle-link">Login</label>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form-content" id="registration-form">
+                <h2>Student Registration</h2>
+                <form action="/register" method="POST">
+                    <label for="student-name">Name:</label>
+                    <input type="text" id="student-name" name="name" required>
+
+                    <label for="student-email">Email:</label>
+                    <input type="email" id="student-email" name="email" required>
+
+                    <label for="student-password">Password:</label>
+                    <input type="password" id="student-password" name="password" required>
+
+                    <label for="student-confirm-password">Confirm Password:</label>
+                    <input type="password" id="student-confirm-password" name="confirm_password" required>
+
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="form-content" id="login-form">
+                <h2>Student Login</h2>
+                <form action="/login" method="POST">
+                    <label for="student-email-login">Email:</label>
+                    <input type="email" id="student-email-login" name="email" required>
+
+                    <label for="student-password-login">Password:</label>
+                    <input type="password" id="student-password-login" name="password" required>
+
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
